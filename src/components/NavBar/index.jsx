@@ -19,16 +19,12 @@ const navlinks = [
     href: "#about",
   },
   {
-    name: "Experience",
-    href: "#experience",
+    name: "Contents",
+    href: "#contents",
   },
   {
-    name: "Projects",
-    href: "#projects",
-  },
-  {
-    name: "Uses",
-    href: "#uses",
+    name: "Insights",
+    href: "#insights",
   },
 ];
 

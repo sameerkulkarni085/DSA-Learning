@@ -23,7 +23,7 @@ const ContactModal = ({ toggleOpen, toggleClose, children, className }) => {
         </span>
 
         <span className="text-sm font-medium transition-all group-hover:mr-4">
-          Say hi!
+          Reach Out!
         </span>
       </button>
       <Modal
