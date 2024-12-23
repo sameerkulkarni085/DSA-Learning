@@ -33,8 +33,16 @@ import patternsearching from "../assets/logo/Pattern.png";
 import dividelogo from "../assets/logo/divide.png";
 import branchlogo from "../assets/logo/branch.png";
 import randomlogo from "../assets/logo/random.png";
-
-
+import arraylogo from "../assets/logo/array.png";
+import stringslogo from "../assets/logo/strings.png";
+import linkedlistslogo from "../assets/logo/linked lists.png";
+import stackslogo from "../assets/logo/stacks.png";
+import queueslogo from "../assets/logo/queues.png";
+import treeslogo from "../assets/logo/trees.png";
+import heapslogo from "../assets/logo/heaps.png";
+import hashlogo from "../assets/logo/hash.png";
+import graphslogo from "../assets/logo/graphs.png";
+import matrixlogo from "../assets/logo/matrix.png";
 export default {
   emailIcon,
   upworkIcon,
@@ -71,4 +79,14 @@ export default {
   dividelogo,
   branchlogo,
   randomlogo,
+  arraylogo,
+  stringslogo,
+  linkedlistslogo,
+  stackslogo,
+  queueslogo,
+  treeslogo,
+  heapslogo,
+  hashlogo,
+  graphslogo,
+  matrixlogo,
 };
