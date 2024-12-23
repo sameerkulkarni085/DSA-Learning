@@ -4,7 +4,7 @@ import githubIcon from "../assets/github.svg";
 import codepenIcon from "../assets/codepen.svg";
 import linkedinIcon from "../assets/linkedin.svg";
 import htmlLogo from "../assets/logo/html-logo.svg";
-import cssLogo from "../assets/logo/css-logo.svg";
+import cssLogo from "../assets/logo/css-logo.png";
 import javascriptLogo from "../assets/logo/javascript-logo.svg";
 import reactLogo from "../assets/logo/react-logo.svg";
 import tailwindLogo from "../assets/logo/tailwind-logo.svg";
@@ -23,6 +23,17 @@ import errorIllustration from "../assets/illustrations/404-vector.svg";
 import successIllustration from "../assets/illustrations/success-vector.svg";
 import brandLogoLight from "../assets/icons/logolight2.png";
 import brandLogoDark from "../assets/icons/logodark2.png";
+import searchlogo from "../assets/logo/search.png";
+import sortlogo from "../assets/logo/sort.png";
+import recursionlogo from "../assets/logo/recursion.png";
+import backtrackinglogo from "../assets/logo/backtracking.png";
+import greedylogo from "../assets/logo/greedy.png";
+import dynamicprogramminglogo from "../assets/logo/dynamicprogramming.png";
+import patternsearching from "../assets/logo/Pattern.png";
+import dividelogo from "../assets/logo/divide.png";
+import branchlogo from "../assets/logo/branch.png";
+import randomlogo from "../assets/logo/random.png";
+
 
 export default {
   emailIcon,
@@ -50,4 +61,14 @@ export default {
   successIllustration,
   brandLogoLight,
   brandLogoDark,
+  searchlogo,
+  sortlogo,
+  recursionlogo,
+  backtrackinglogo,
+  greedylogo,
+  dynamicprogramminglogo,
+  patternsearching,
+  dividelogo,
+  branchlogo,
+  randomlogo,
 };

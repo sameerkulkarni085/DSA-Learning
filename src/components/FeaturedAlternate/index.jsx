@@ -239,6 +239,19 @@ const CardGrid = () => {
                       height={32}
                     />
                   </div>
+                  
+                )}
+
+                {proj.search && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.htmlLogo}
+                      alt="html logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
                 )}
               </div>
             </div>
