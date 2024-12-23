@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="mx-auto flex items-center justify-center">
         <p className="mr-2">©2024 Master DSA</p>
 		<a
-          href="https://github.com/ElonMusk2002/my-portfolio"
+          href="https://github.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
