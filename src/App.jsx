@@ -23,19 +23,15 @@ function App() {
         <>
           <NavBar />
           <HeroSection />
-          <SectionWrapper id="about" heading="ABOUT ME">
+          <SectionWrapper id="contents" heading="Start Learning!">
             <TabSection />
           </SectionWrapper>
-          <SectionWrapper id="experience" heading="EXPERIENCE">
+          <SectionWrapper id="insights" heading="Insights">
             <TwoColumnCard />
           </SectionWrapper>
-          <SectionWrapper id="projects" heading="PROJECTS">
-            <FeaturedAlternate />
+          <SectionWrapper id="about" heading="About">
+            <Footer />
           </SectionWrapper>
-          <SectionWrapper id="uses" heading="USES">
-            <UsesList />
-          </SectionWrapper>
-          <Footer />
         </>
       ) : (
         <div className="loading-wrapper">

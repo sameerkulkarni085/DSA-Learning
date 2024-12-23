@@ -14,10 +14,7 @@ const navlinks = [
     name: "Home",
     href: "#home",
   },
-  {
-    name: "About",
-    href: "#about",
-  },
+  
   {
     name: "Contents",
     href: "#contents",
@@ -25,6 +22,10 @@ const navlinks = [
   {
     name: "Insights",
     href: "#insights",
+  },
+  {
+    name: "About",
+    href: "#about",
   },
 ];
 
