@@ -6,52 +6,52 @@ import { motion } from "framer-motion";
 
 const logos = [
   {
-    image: images.htmlLogo,
+    image: images.arraylogo,
     title: "Arrays",
     link: "https://www.google.com/search?q=Arrays"
   },
   {
-    image: images.cssLogo,
+    image: images.stringslogo,
     title: "Strings",
     link: "https://www.google.com/search?q=Strings"
   },
   {
-    image: images.javascriptLogo,
+    image: images.linkedlistslogo,
     title: "Linked List",
     link: "https://www.google.com/search?q=Linked+List"
   },
   {
-    image: images.gitLogo,
+    image: images.stackslogo,
     title: "Stack",
     link: "https://www.google.com/search?q=Stack"
   },
   {
-    image: images.githubLogo,
+    image: images.queueslogo,
     title: "Queues",
     link: "https://www.google.com/search?q=Queues"
   },
   {
-    image: images.reactLogo,
+    image: images.treeslogo,
     title: "Trees",
     link: "https://www.google.com/search?q=Trees"
   },
   {
-    image: images.nextLogo,
+    image: images.heapslogo,
     title: "Heap",
     link: "https://www.google.com/search?q=Heap"
   },
   {
-    image: images.hubspotLogo,
+    image: images.hashlogo,
     title: "Hash",
     link: "https://www.google.com/search?q=Hash"
   },
   {
-    image: images.tailwindLogo,
+    image: images.graphslogo,
     title: "Graph",
     link: "https://www.google.com/search?q=Graph"
   },
   {
-    image: images.tailwindLogo,
+    image: images.matrixlogo,
     title: "Matrix",
     link: "https://www.google.com/search?q=Matrix"
   },
