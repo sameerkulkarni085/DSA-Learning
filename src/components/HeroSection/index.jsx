@@ -33,7 +33,7 @@ const HeroSection = () => {
               transition={{ type: "linear", duration: 0.5 }}
               className="hero__heading"
             >
-              Felix M.
+              Welcome to DSA Learning!
             </motion.h1>
           </div>
         </div>
