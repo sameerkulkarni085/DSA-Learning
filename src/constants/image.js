@@ -31,7 +31,7 @@ import greedylogo from "../assets/logo/greedy.png";
 import dynamicprogramminglogo from "../assets/logo/dynamicprogramming.png";
 import patternsearching from "../assets/logo/Pattern.png";
 import dividelogo from "../assets/logo/divide.png";
-import branchlogo from "../assets/logo/branch.png";
+import branchlogo from "../assets/logo/branch.jpg";
 import randomlogo from "../assets/logo/random.png";
 
 

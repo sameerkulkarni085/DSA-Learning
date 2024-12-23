@@ -246,12 +246,122 @@ const CardGrid = () => {
                   <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
                     <img
                       className="h-8 object-contain dark:filter dark:invert"
-                      src={images.htmlLogo}
+                      src={images.searchlogo}
                       alt="html logo"
                       width={32}
                       height={32}
                     />
                   </div>
+                
+                )}
+                {proj.sort && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.sortlogo}
+                      alt="html logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                
+                )}
+
+{proj.recursion && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.recursionlogo}
+                      alt="html logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                
+                )}
+                {proj.backtracking && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.backtrackinglogo}
+                      alt="html logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                
+                )}
+                {proj.greedy && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.greedylogo}
+                      alt="html logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                
+                )}
+                {proj.dynamicprogramming && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.dynamicprogramminglogo}
+                      alt="html logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                
+                )}
+                {proj.patternsearching && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.patternsearching}
+                      alt="html logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                
+                )}
+                {proj.divide && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.dividelogo}
+                      alt="html logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                
+                )}
+                {proj.branchlogo && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.branchlogo}
+                      alt="html logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                
+                )}
+                {proj.randomlogo && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.randomlogo}
+                      alt="html logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                
                 )}
               </div>
             </div>

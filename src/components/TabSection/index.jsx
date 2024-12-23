@@ -59,52 +59,52 @@ const logos = [
 
 const logos2 = [
   {
-    image: images.htmlLogo,
+    image: images.searchlogo,
     title: "Searching",
     link: "https://www.google.com/search?q=Searching"
   },
   {
-    image: images.cssLogo,
+    image: images.sortlogo,
     title: "Sorting",
     link: "https://www.google.com/search?q=Sorting"
   },
   {
-    image: images.javascriptLogo,
+    image: images.recursionlogo,
     title: "Recursion",
     link: "https://www.google.com/search?q=Recursion"
   },
   {
-    image: images.gitLogo,
+    image: images.backtrackinglogo,
     title: "Backtracking",
     link: "https://www.google.com/search?q=Backtracking"
   },
   {
-    image: images.githubLogo,
+    image: images.greedylogo,
     title: "Greedy",
     link: "https://www.google.com/search?q=Greedy"
   },
   {
-    image: images.reactLogo,
+    image: images.dynamicprogramminglogo,
     title: "Dynamic Programming",
     link: "https://www.google.com/search?q=Dynamic+Programming"
   },
   {
-    image: images.nextLogo,
+    image: images.patternsearching,
     title: "Pattern Searching",
     link: "https://www.google.com/search?q=Pattern+Searching"
   },
   {
-    image: images.hubspotLogo,
+    image: images.dividelogo,
     title: "Divide and Conquer",
     link: "https://www.google.com/search?q=Divide+and+Conquer"
   },
   {
-    image: images.tailwindLogo,
+    image: images.branchlogo,
     title: "Branch and Bound",
     link: "https://www.google.com/search?q=Branch+and+Bound"
   },
   {
-    image: images.tailwindLogo,
+    image: images.randomlogo,
     title: "Randomized",
     link: "https://www.google.com/search?q=Randomized"
   },
