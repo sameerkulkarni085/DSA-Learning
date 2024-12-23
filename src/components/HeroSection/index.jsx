@@ -25,7 +25,7 @@ const HeroSection = () => {
     <section id="home" className="bg-white dark:bg-primary">
       <div className="container relative">
         <div className="flex items-center flex-col">
-          <div className="flex flex-col items-center justify-center min-h-[50vh] md:min-h-[50vh]">
+          <div className="flex flex-col items-center justify-center min-h-[70vh] md:min-h-[90vh]">
             <motion.h1
               viewport={{ once: true }}
               initial={{ opacity: 0, y: 10 }}
