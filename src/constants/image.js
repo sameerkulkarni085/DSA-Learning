@@ -22,7 +22,7 @@ import slothImage from "../assets/projects/languagesloth-visible.png";
 import errorIllustration from "../assets/illustrations/404-vector.svg";
 import successIllustration from "../assets/illustrations/success-vector.svg";
 import brandLogoLight from "../assets/icons/logo-light.png";
-import brandLogoDark from "../assets/icons/logodark.png";
+import brandLogoDark from "../assets/icons/logodark2.png";
 
 export default {
   emailIcon,

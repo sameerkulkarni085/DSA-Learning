@@ -19,7 +19,7 @@ const ContactModal = ({ toggleOpen, toggleClose, children, className }) => {
         href="/download"
       >
         <span className="absolute right-0 md:transition-transform md:translate-x-full md:group-hover:-translate-x-10 hidden md:block">
-          👋
+        ✉️
         </span>
 
         <span className="text-sm font-medium transition-all group-hover:mr-4">
