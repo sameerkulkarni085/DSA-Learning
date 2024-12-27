@@ -22,7 +22,9 @@ function Array() {
           <SectionWrapper id="array-content" heading="Array Data Structure">
             <ArrayPage />
           </SectionWrapper>
-          <Footer />
+          <SectionWrapper id="footer" heading="About">
+            <Footer />
+          </SectionWrapper>
         </>
       
     </div>
