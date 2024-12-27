@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import "react-tabs/style/react-tabs.css";
 import images from "../../constants/image";
 import { motion } from "framer-motion";
@@ -141,25 +142,45 @@ const TabSection = () => {
               className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-4 lg:mt-8"
             >
               {logos.map((logo, index) => (
-                <a
-                  key={index}
-                  href={logo.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex flex-col justify-center items-center gap-4 py-8 px-8 bg-gray-50 rounded-xl filter shadow-md dark:bg-primary-400"
-                >
-                  <img
-                    className="h-14 object-contain dark:filter dark:invert"
-                    src={logo.image}
-                    alt={logo.title}
-                    loading="lazy"
-                    width={56}
-                    height={56}
-                  />
-                  <h6 className="text-xl font-semibold text-primary dark:text-white">
-                    {logo.title}
-                  </h6>
-                </a>
+                logo.link.startsWith("/") ? (
+                  <Link
+                    key={index}
+                    to={logo.link}
+                    className="flex flex-col justify-center items-center gap-4 py-8 px-8 bg-gray-50 rounded-xl filter shadow-md dark:bg-primary-400"
+                  >
+                    <img
+                      className="h-14 object-contain dark:filter dark:invert"
+                      src={logo.image}
+                      alt={logo.title}
+                      loading="lazy"
+                      width={56}
+                      height={56}
+                    />
+                    <h6 className="text-xl font-semibold text-primary dark:text-white">
+                      {logo.title}
+                    </h6>
+                  </Link>
+                ) : (
+                  <a
+                    key={index}
+                    href={logo.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex flex-col justify-center items-center gap-4 py-8 px-8 bg-gray-50 rounded-xl filter shadow-md dark:bg-primary-400"
+                  >
+                    <img
+                      className="h-14 object-contain dark:filter dark:invert"
+                      src={logo.image}
+                      alt={logo.title}
+                      loading="lazy"
+                      width={56}
+                      height={56}
+                    />
+                    <h6 className="text-xl font-semibold text-primary dark:text-white">
+                      {logo.title}
+                    </h6>
+                  </a>
+                )
               ))}
             </motion.div>
           </div>
