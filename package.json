@@ -1,5 +1,5 @@
 {
-  "homepage":"https://sameerkulkarni085.github.io/DSA-Learning/",
+  "homepage": "https://sameerkulkarni085.github.io/DSA-Learning/",
   "name": "react-2022-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
@@ -17,9 +17,10 @@
     "classnames": "^2.3.1",
     "framer-motion": "^7.2.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react-dom": "^18.3.1",
     "react-hook-form": "^7.33.0",
     "react-modal": "^3.15.1",
+    "react-router-dom": "^7.1.1",
     "react-tabs": "^5.1.0"
   },
   "devDependencies": {

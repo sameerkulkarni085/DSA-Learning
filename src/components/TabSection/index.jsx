@@ -8,7 +8,7 @@ const logos = [
   {
     image: images.arraylogo,
     title: "Arrays",
-    link: "https://www.google.com/search?q=Arrays"
+    link: "/array"
   },
   {
     image: images.stringslogo,

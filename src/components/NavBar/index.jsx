@@ -12,20 +12,20 @@ import useDarkMode from "../../hooks/useDarkMode";
 const navlinks = [
   {
     name: "Home",
-    href: "#home",
+    href: "./#home",
   },
   
   {
     name: "Contents",
-    href: "#contents",
+    href: "./#contents",
   },
   {
     name: "Insights",
-    href: "#insights",
+    href: "./#insights",
   },
   {
     name: "About",
-    href: "#about",
+    href: "./#about",
   },
 ];
 
@@ -72,7 +72,7 @@ export default function NavBar() {
       >
         <div className="flex justify-end items-center px-0 py-4 gap-4 sm:px-6 lg:py-8 lg:gap-10">
           <div className="mr-auto">
-            <a href="#home">
+            <a href="./#home">
               {darkTheme ? (
                 <img
                   className="h-12 w-auto"
