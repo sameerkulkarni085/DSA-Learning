@@ -14,7 +14,7 @@ const logos = [
   {
     image: images.stringslogo,
     title: "Strings",
-    link: "https://www.google.com/search?q=Strings"
+    link: "/linkedlist"
   },
   {
     image: images.linkedlistslogo,
