@@ -62,7 +62,7 @@ const logos2 = [
   {
     image: images.searchlogo,
     title: "Searching",
-    link: "https://www.google.com/search?q=Searching"
+    link: "/searching"
   },
   {
     image: images.sortlogo,
