@@ -72,7 +72,7 @@ const logos2 = [
   {
     image: images.recursionlogo,
     title: "Recursion",
-    link: "https://www.google.com/search?q=Recursion"
+    link: "/recursion"
   },
   {
     image: images.backtrackinglogo,
