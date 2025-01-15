@@ -67,7 +67,7 @@ const logos2 = [
   {
     image: images.sortlogo,
     title: "Sorting",
-    link: "https://www.google.com/search?q=Sorting"
+    link: "/sorting"
   },
   {
     image: images.recursionlogo,
