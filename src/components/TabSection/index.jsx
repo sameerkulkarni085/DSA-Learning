@@ -77,7 +77,7 @@ const logos2 = [
   {
     image: images.backtrackinglogo,
     title: "Backtracking",
-    link: "https://www.google.com/search?q=Backtracking"
+    link: "/backtracking"
   },
   {
     image: images.greedylogo,

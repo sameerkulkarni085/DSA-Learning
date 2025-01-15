@@ -6,6 +6,7 @@ import LinkedList from "./components/LinkedList/index";
 import Searching from "./components/Searching/index";
 import Sorting from "./components/Sorting/index";
 import Recursion from "./components/Recursion/index";
+import Backtracking from "./components/Backtracking/index";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/searching" element={<Searching />} />
         <Route path="/sorting" element={<Sorting />} />
         <Route path="/recursion" element={<Recursion />} />
+        <Route path="/backtracking" element={<Backtracking />} />
       </Routes>
     </Router>
   );
