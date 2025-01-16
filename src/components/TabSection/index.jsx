@@ -87,27 +87,27 @@ const logos2 = [
   {
     image: images.dynamicprogramminglogo,
     title: "Dynamic Programming",
-    link: "https://www.google.com/search?q=Dynamic+Programming"
+    link: "/dynamic"
   },
   {
     image: images.patternsearching,
     title: "Pattern Searching",
-    link: "https://www.google.com/search?q=Pattern+Searching"
+    link: "/pattern"
   },
   {
     image: images.dividelogo,
     title: "Divide and Conquer",
-    link: "https://www.google.com/search?q=Divide+and+Conquer"
+    link: "/divide"
   },
   {
     image: images.branchlogo,
     title: "Branch and Bound",
-    link: "https://www.google.com/search?q=Branch+and+Bound"
+    link: "/branch"
   },
   {
     image: images.randomlogo,
     title: "Randomized",
-    link: "https://www.google.com/search?q=Randomized"
+    link: "/random"
   },
 ];
 

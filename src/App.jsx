@@ -8,6 +8,11 @@ import Sorting from "./components/Sorting/index";
 import Recursion from "./components/Recursion/index";
 import Backtracking from "./components/Backtracking/index";
 import Greedy from "./components/Greedy/index";
+import Dynamic from "./components/Dynamic/index";
+import Pattern from "./components/Pattern/index";
+import Divide from "./components/Divide/index";
+import Branch from "./components/Branch/index";
+import Random from "./components/Random/index";
 
 const App = () => {
   return (
@@ -21,6 +26,11 @@ const App = () => {
         <Route path="/recursion" element={<Recursion />} />
         <Route path="/backtracking" element={<Backtracking />} />
         <Route path="/greedy" element={<Greedy />} />
+        <Route path="/dynamic" element={<Dynamic />} />
+        <Route path="/pattern" element={<Pattern />} />
+        <Route path="/divide" element={<Divide />} />
+        <Route path="/branch" element={<Branch />} />
+        <Route path="/random" element={<Random />} />
       </Routes>
     </Router>
   );
