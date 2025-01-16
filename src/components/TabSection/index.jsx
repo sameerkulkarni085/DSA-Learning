@@ -82,7 +82,7 @@ const logos2 = [
   {
     image: images.greedylogo,
     title: "Greedy",
-    link: "https://www.google.com/search?q=Greedy"
+    link: "/greedy"
   },
   {
     image: images.dynamicprogramminglogo,
