@@ -29,32 +29,32 @@ const logos = [
   {
     image: images.queueslogo,
     title: "Queues",
-    link: "https://www.google.com/search?q=Queues"
+    link: "/queue" // Update link for queues
   },
   {
     image: images.treeslogo,
     title: "Trees",
-    link: "https://www.google.com/search?q=Trees"
+    link: "/tree" // Update link for trees
   },
   {
     image: images.heapslogo,
     title: "Heap",
-    link: "https://www.google.com/search?q=Heap"
+    link: "/heap" // Update link for heap
   },
   {
     image: images.hashlogo,
     title: "Hash",
-    link: "https://www.google.com/search?q=Hash"
+    link: "/hash" // Update link for hash
   },
   {
     image: images.graphslogo,
     title: "Graph",
-    link: "https://www.google.com/search?q=Graph"
+    link: "/graph" // Update link for graph
   },
   {
     image: images.matrixlogo,
     title: "Matrix",
-    link: "https://www.google.com/search?q=Matrix"
+    link: "/matrix" // Update link for matrix
   },
 ];
 

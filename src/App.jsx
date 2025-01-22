@@ -15,6 +15,12 @@ import Branch from "./components/Branch/index";
 import Random from "./components/Random/index";
 import StringComponent from "./components/Strings/index";
 import StackComponent from "./components/Stack/index";
+import HashComponent from "./components/Hash/index";
+import HeapComponent from "./components/Heap/index";
+import QueueComponent from "./components/Queue/index";
+import TreeComponent from "./components/Tree/index";
+import GraphComponent from "./components/Graph/index";
+import MatrixComponent from "./components/Matrix/index";
 
 const App = () => {
   return (
@@ -35,6 +41,12 @@ const App = () => {
         <Route path="/random" element={<Random />} />
         <Route path="/string" element={<StringComponent />} />
         <Route path="/stack" element={<StackComponent />} /> 
+        <Route path="/hash" element={<HashComponent />} />
+        <Route path="/heap" element={<HeapComponent />} />
+        <Route path="/queue" element={<QueueComponent />} />
+        <Route path="/tree" element={<TreeComponent />} />
+        <Route path="/graph" element={<GraphComponent />} />
+        <Route path="/matrix" element={<MatrixComponent />} />
       </Routes>
     </Router>
   );
