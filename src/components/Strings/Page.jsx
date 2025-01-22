@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 
-const LinkedListInfo = () => {
+const StringInfo = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -26,7 +26,7 @@ const LinkedListInfo = () => {
               >
                 <h2 className="text-2xl md:text-3xl font-bold mb-4">Introduction</h2>
                 <p>
-                  A linked list is a linear data structure where elements are not stored at contiguous memory locations. Instead, each element (node) contains a reference (link) to the next element in the sequence.
+                  A string is a sequence of characters, typically used to represent text. Strings are a fundamental data type in most programming languages.
                 </p>
               </motion.section>
               
@@ -37,12 +37,13 @@ const LinkedListInfo = () => {
                 variants={sectionVariants}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">Types of Linked Lists</h2>
-                <p>There are several types of linked lists:</p>
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">String Operations</h2>
                 <ul className="list-disc list-inside">
-                  <li><b>Singly Linked List:</b> Each node points to the next node in the sequence.</li>
-                  <li><b>Doubly Linked List:</b> Each node points to both the next and the previous node.</li>
-                  <li><b>Circular Linked List:</b> The last node points back to the first node, forming a circle.</li>
+                  <li><b>Concatenation:</b> Combining two or more strings into one.</li>
+                  <li><b>Substring:</b> Extracting a part of a string.</li>
+                  <li><b>Length:</b> Finding the number of characters in a string.</li>
+                  <li><b>Comparison:</b> Comparing two strings for equality or order.</li>
+                  <li><b>Searching:</b> Finding the position of a substring within a string.</li>
                 </ul>
               </motion.section>
     
@@ -53,12 +54,12 @@ const LinkedListInfo = () => {
                 variants={sectionVariants}
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">Basic Operations</h2>
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">String Methods</h2>
+                <p>Common string methods in various programming languages include:</p>
                 <ul className="list-disc list-inside">
-                  <li><b>Traversal:</b> Accessing each element of the linked list sequentially.</li>
-                  <li><b>Insertion:</b> Adding a new element at a specified position.</li>
-                  <li><b>Deletion:</b> Removing an element from a specified position.</li>
-                  <li><b>Searching:</b> Finding the location of a given element in the linked list.</li>
+                  <li>JavaScript: <code>str.length</code>, <code>str.concat()</code>, <code>str.substring()</code></li>
+                  <li>Python: <code>len(str)</code>, <code>str + str</code>, <code>str[1:4]</code></li>
+                  <li>Java: <code>str.length()</code>, <code>str.concat()</code>, <code>str.substring()</code></li>
                 </ul>
               </motion.section>
     
@@ -72,13 +73,13 @@ const LinkedListInfo = () => {
                 <h2 className="text-2xl md:text-3xl font-bold mb-4">Advantages and Disadvantages</h2>
                 <p><b>Advantages:</b></p>
                 <ul className="list-disc list-inside">
-                  <li>Dynamic size: Can grow or shrink in size as needed.</li>
-                  <li>Efficient insertion and deletion operations.</li>
+                  <li>Easy to use and understand.</li>
+                  <li>Supported by most programming languages.</li>
                 </ul>
                 <p><b>Disadvantages:</b></p>
                 <ul className="list-disc list-inside">
-                  <li>Memory overhead: Requires extra memory for storing references.</li>
-                  <li>Sequential access: Cannot directly access elements by index.</li>
+                  <li>Immutable in some languages, requiring new strings to be created for modifications.</li>
+                  <li>Can be memory-intensive for large texts.</li>
                 </ul>
               </motion.section>
               
@@ -89,11 +90,11 @@ const LinkedListInfo = () => {
                 variants={sectionVariants}
                 transition={{ duration: 0.5, delay: 0.8 }}
               >
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">Applications of Linked Lists</h2>
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">Applications of Strings</h2>
                 <ul className="list-disc list-inside">
-                  <li>Used in implementing other data structures like stacks, queues, and graphs.</li>
-                  <li>Used in dynamic memory allocation.</li>
-                  <li>Used in applications where frequent insertion and deletion operations are required.</li>
+                  <li>Used in text processing and manipulation.</li>
+                  <li>Essential for data input and output operations.</li>
+                  <li>Used in pattern matching and regular expressions.</li>
                 </ul>
               </motion.section>
               
@@ -106,7 +107,7 @@ const LinkedListInfo = () => {
               >
                 <h2 className="text-2xl md:text-3xl font-bold mb-4">Conclusion</h2>
                 <p>
-                  Linked lists are a versatile data structure that provide efficient insertion and deletion operations. Understanding linked lists and their operations is essential for solving many computational problems.
+                  Strings are a fundamental data type that provide a way to store and manipulate text. Understanding strings and their operations is crucial for many programming tasks.
                 </p>
               </motion.section>
             </div>
@@ -117,4 +118,4 @@ const LinkedListInfo = () => {
   );
 };
 
-export default LinkedListInfo;
+export default StringInfo;

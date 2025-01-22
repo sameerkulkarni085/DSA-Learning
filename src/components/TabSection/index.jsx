@@ -14,17 +14,17 @@ const logos = [
   {
     image: images.stringslogo,
     title: "Strings",
-    link: "/linkedlist"
+    link: "/string" // Update link for strings
   },
   {
     image: images.linkedlistslogo,
     title: "Linked List",
-    link: "https://www.google.com/search?q=Linked+List"
+    link: "/linkedlist"
   },
   {
     image: images.stackslogo,
     title: "Stack",
-    link: "https://www.google.com/search?q=Stack"
+    link: "/stack"
   },
   {
     image: images.queueslogo,

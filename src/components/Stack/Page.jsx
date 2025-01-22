@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 
-const LinkedListInfo = () => {
+const StackInfo = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -26,7 +26,7 @@ const LinkedListInfo = () => {
               >
                 <h2 className="text-2xl md:text-3xl font-bold mb-4">Introduction</h2>
                 <p>
-                  A linked list is a linear data structure where elements are not stored at contiguous memory locations. Instead, each element (node) contains a reference (link) to the next element in the sequence.
+                  A stack is a linear data structure that follows the Last In, First Out (LIFO) principle. Elements can be added and removed only from the top of the stack.
                 </p>
               </motion.section>
               
@@ -37,12 +37,13 @@ const LinkedListInfo = () => {
                 variants={sectionVariants}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">Types of Linked Lists</h2>
-                <p>There are several types of linked lists:</p>
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">Basic Operations</h2>
                 <ul className="list-disc list-inside">
-                  <li><b>Singly Linked List:</b> Each node points to the next node in the sequence.</li>
-                  <li><b>Doubly Linked List:</b> Each node points to both the next and the previous node.</li>
-                  <li><b>Circular Linked List:</b> The last node points back to the first node, forming a circle.</li>
+                  <li><b>Push:</b> Adding an element to the top of the stack.</li>
+                  <li><b>Pop:</b> Removing the top element from the stack.</li>
+                  <li><b>Peek:</b> Viewing the top element without removing it.</li>
+                  <li><b>IsEmpty:</b> Checking if the stack is empty.</li>
+                  <li><b>Size:</b> Getting the number of elements in the stack.</li>
                 </ul>
               </motion.section>
     
@@ -53,15 +54,19 @@ const LinkedListInfo = () => {
                 variants={sectionVariants}
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">Basic Operations</h2>
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">Advantages and Disadvantages</h2>
+                <p><b>Advantages:</b></p>
                 <ul className="list-disc list-inside">
-                  <li><b>Traversal:</b> Accessing each element of the linked list sequentially.</li>
-                  <li><b>Insertion:</b> Adding a new element at a specified position.</li>
-                  <li><b>Deletion:</b> Removing an element from a specified position.</li>
-                  <li><b>Searching:</b> Finding the location of a given element in the linked list.</li>
+                  <li>Simple and easy to implement.</li>
+                  <li>Efficient for managing function calls and recursion.</li>
+                </ul>
+                <p><b>Disadvantages:</b></p>
+                <ul className="list-disc list-inside">
+                  <li>Limited access: Only the top element can be accessed directly.</li>
+                  <li>Fixed size in static implementations.</li>
                 </ul>
               </motion.section>
-    
+              
               <motion.section
                 className="mb-8"
                 initial="hidden"
@@ -69,16 +74,11 @@ const LinkedListInfo = () => {
                 variants={sectionVariants}
                 transition={{ duration: 0.5, delay: 0.6 }}
               >
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">Advantages and Disadvantages</h2>
-                <p><b>Advantages:</b></p>
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">Applications of Stacks</h2>
                 <ul className="list-disc list-inside">
-                  <li>Dynamic size: Can grow or shrink in size as needed.</li>
-                  <li>Efficient insertion and deletion operations.</li>
-                </ul>
-                <p><b>Disadvantages:</b></p>
-                <ul className="list-disc list-inside">
-                  <li>Memory overhead: Requires extra memory for storing references.</li>
-                  <li>Sequential access: Cannot directly access elements by index.</li>
+                  <li>Used in expression evaluation and syntax parsing.</li>
+                  <li>Used in backtracking algorithms.</li>
+                  <li>Used in managing function calls and recursion.</li>
                 </ul>
               </motion.section>
               
@@ -89,24 +89,9 @@ const LinkedListInfo = () => {
                 variants={sectionVariants}
                 transition={{ duration: 0.5, delay: 0.8 }}
               >
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">Applications of Linked Lists</h2>
-                <ul className="list-disc list-inside">
-                  <li>Used in implementing other data structures like stacks, queues, and graphs.</li>
-                  <li>Used in dynamic memory allocation.</li>
-                  <li>Used in applications where frequent insertion and deletion operations are required.</li>
-                </ul>
-              </motion.section>
-              
-              <motion.section
-                className="mb-8"
-                initial="hidden"
-                animate="visible"
-                variants={sectionVariants}
-                transition={{ duration: 0.5, delay: 1.0 }}
-              >
                 <h2 className="text-2xl md:text-3xl font-bold mb-4">Conclusion</h2>
                 <p>
-                  Linked lists are a versatile data structure that provide efficient insertion and deletion operations. Understanding linked lists and their operations is essential for solving many computational problems.
+                  Stacks are a fundamental data structure that provide a way to manage data in a LIFO manner. Understanding stacks and their operations is crucial for many programming tasks.
                 </p>
               </motion.section>
             </div>
@@ -117,4 +102,4 @@ const LinkedListInfo = () => {
   );
 };
 
-export default LinkedListInfo;
+export default StackInfo;

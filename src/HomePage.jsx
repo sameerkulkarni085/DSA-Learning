@@ -13,7 +13,14 @@ function HomePage() {
   useEffect(() => {
     const handleLoad = () => setLoading(false);
     window.addEventListener("load", handleLoad);
-    return () => window.removeEventListener("load", handleLoad);
+
+    // Fallback to ensure loading state is set to false after a short delay
+    const timer = setTimeout(() => setLoading(false), 200);  
+
+    return () => {
+      window.removeEventListener("load", handleLoad);
+      clearTimeout(timer);
+    };
   }, []);
 
   return (
