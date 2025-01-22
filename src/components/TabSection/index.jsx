@@ -195,11 +195,9 @@ const TabSection = () => {
               className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-4 lg:mt-8"
             >
               {logos2.map((logo, index) => (
-                <a
+                <Link
                   key={index}
-                  href={logo.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  to={logo.link}
                   className="flex flex-col justify-center items-center gap-4 py-8 px-8 bg-gray-50 rounded-xl filter shadow-md dark:bg-primary-400"
                 >
                   <img
@@ -213,7 +211,7 @@ const TabSection = () => {
                   <h6 className="text-xl font-semibold text-primary dark:text-white">
                     {logo.title}
                   </h6>
-                </a>
+                </Link>
               ))}
             </motion.div>
           </div>
