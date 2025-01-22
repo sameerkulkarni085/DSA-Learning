@@ -13,6 +13,8 @@ import Pattern from "./components/Pattern/index";
 import Divide from "./components/Divide/index";
 import Branch from "./components/Branch/index";
 import Random from "./components/Random/index";
+import StringComponent from "./components/Strings/index";
+import StackComponent from "./components/Stack/index";
 
 const App = () => {
   return (
@@ -31,6 +33,8 @@ const App = () => {
         <Route path="/divide" element={<Divide />} />
         <Route path="/branch" element={<Branch />} />
         <Route path="/random" element={<Random />} />
+        <Route path="/string" element={<StringComponent />} />
+        <Route path="/stack" element={<StackComponent />} /> 
       </Routes>
     </Router>
   );
