@@ -1,8 +1,6 @@
 {
   "homepage": "https://sameerkulkarni085.github.io/DSA-Learning/", // Ensure this matches your GitHub Pages URL
   "name": "react-2022-portfolio",
-  "homepage": "https://sameerkulkarni085.github.io/DSA-Learning/",
-  "name": "dsasite",
   "private": true,
   "version": "0.1.0",
   "scripts": {
