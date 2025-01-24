@@ -1,8 +1,10 @@
 {
   "homepage": "https://sameerkulkarni085.github.io/DSA-Learning/", // Ensure this matches your GitHub Pages URL
   "name": "react-2022-portfolio",
+  "homepage": "https://sameerkulkarni085.github.io/DSA-Learning/",
+  "name": "dsasite",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -16,21 +18,21 @@
     "@heroicons/react": "^1.0.6",
     "classnames": "^2.3.1",
     "framer-motion": "^7.2.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-hook-form": "^7.33.0",
     "react-modal": "^3.15.1",
-    "react-router-dom": "^7.1.1",
+    "react-router-dom": "^5.2.0",
     "react-tabs": "^5.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
-    "@vitejs/plugin-react": "^1.3.0",
+    "@vitejs/plugin-react": "^1.0.0",
     "autoprefixer": "^10.4.7",
-    "gh-pages": "^6.2.0",
+    "gh-pages": "^3.2.3",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24",
-    "vite": "^6.0.5"
+    "vite": "^2.0.0"
   }
 }
