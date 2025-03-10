@@ -1,24 +1,21 @@
-# MASTER DSA - A DSA Learning Platform
+# Master DSA - DSA Learning Platform
 
-## About
-An interactive front-end website that facilitates learning and practicing Data Structures and Algorithms (DSA). The platform aims to provide an engaging and educational experience for students and professionals looking to strengthen their DSA skills.
-
-## Technologies Used
-- **Frontend Framework:** React.js
-- **Build Tool:** Vite
-- **Styling:** CSS Modules, Tailwind CSS
-- **State Management:** Redux
-- **Routing:** React Router
-- **API Integration:** Axios
+## Project Overview
+The DSA Learning frontend website is a React-based application designed to provide educational content on various data structures and algorithms. The project uses modern web development tools and libraries to create an interactive and user-friendly experience.
 
 ## Key Features
-1. **User Authentication:** Secure login and registration functionality allowing users to create accounts and track their progress.
-2. **Interactive Tutorials:** Step-by-step tutorials explaining various data structures and algorithms with visual aids and code examples.
-3. **Code Playground:** Integrated code editor enabling users to write, test, and run their own DSA solutions within the browser.
-4. **Practice Problems:** A vast collection of DSA practice problems categorized by difficulty, with solutions and explanations.
-5. **Progress Tracking:** Dashboard for users to monitor their learning progress, track completed tutorials, and view their performance in practice problems.
-6. **Discussion Forum:** Community-driven forum for users to ask questions, share knowledge, and discuss DSA-related topics.
-7. **Responsive Design:** Fully responsive design ensuring seamless user experience across different devices and screen sizes.
+- **Routing:** Utilizes `react-router-dom` for client-side routing to navigate between different pages and components.
+- **Animations:** Integrates `framer-motion` for smooth animations and transitions.
+- **Responsive Design:** Implements responsive design principles using Tailwind CSS to ensure the website is accessible on various devices.
+- **Content Organization:** Organizes content into different sections and components for easy navigation and readability.
+
+## Dependencies
+- **React:** Core library for building the user interface.
+- **React Router DOM:** Library for handling routing in the application.
+- **Framer Motion:** Library for animations and transitions.
+- **Tailwind CSS:** Utility-first CSS framework for styling.
+- **Vite:** Build tool for faster development and optimized production builds.
+- **gh-pages:** Tool for deploying the application to GitHub Pages.
 
 ## Development Workflow
 1. **Project Initialization:** Set up the project structure using Vite and install necessary dependencies.
@@ -29,6 +26,11 @@ An interactive front-end website that facilitates learning and practicing Data S
 6. **Testing and Debugging:** Perform thorough testing to identify and fix any bugs, ensuring a smooth and error-free user experience.
 7. **Deployment:** Deploy the application on a cloud platform, ensuring scalability and reliability.
 
+## Screenshots
+![Screenshot 2025-03-10 154805](https://github.com/user-attachments/assets/7c9a0e1f-8905-40e9-9049-c4e48779b2b0)
+![Screenshot 2025-03-10 154826](https://github.com/user-attachments/assets/a21246d9-dffc-47f8-b9a3-0362d4746c57)
+
+
 ## Future Enhancements
 - **Advanced Analytics:** Incorporate analytics to provide insights into user behavior and learning patterns.
 - **Gamification:** Add gamification elements such as badges, leaderboards, and rewards to motivate users.
@@ -37,6 +39,4 @@ An interactive front-end website that facilitates learning and practicing Data S
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
-- Thanks to the open-source community for providing valuable tools and libraries.
-- Special mention to the contributors for their dedication and hard work.
+
