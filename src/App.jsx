@@ -24,7 +24,7 @@ import MatrixComponent from "./components/Matrix/index";
 
 const App = () => {
   return (
-    <Router basename="/Master-DSA-Learning-Platform" >
+    <Router basename="/DSA-Learning" >
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/array" element={<Array />} />
